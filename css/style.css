@@ -10,16 +10,17 @@ h2:hover {
 #services {
   color: green;
 }
-/* first child doesn't work with ul*/
 
-/* li:first-child {
+/* first child doesn't work with ul
+
+ li:first-child {
   
   color: steelblue;
-} or*/
+} */
 
-li:only-child {
+/* li:only-child {
   color: magenta;
-}
+} */
 
 /*li:last-child {
   
@@ -27,17 +28,17 @@ li:only-child {
 } */
 
 /* when nth child method is used , we cannot use :first-child or :last-child methods*/
-li:nth-child(4) {
+/* li:nth-child(4) {
   color: steelblue;
-}
+} */
 /* There are some changes which can be styled before you visit a link and after you visit a link */
-#google-link:link {
+/* #google-link:link {
   color: blue;
 }
 
 #google-link:visited {
   color: red;
-}
+} */
 /* .title { 
   color: red;
 }
@@ -47,3 +48,25 @@ li:nth-child(4) {
 }
 
 */
+
+/* advance selector --- 1.>set style to a tag followed by h2 element */
+h2 + a {
+  color: red;
+}
+
+/* sibling selector(part of advanced selector)----elements musat belong to a single parent, taking example of form element  */
+
+textarea ~ button {
+  color: purple;
+}
+
+/* trial selector , taking example of ul  and li*/
+/* for the code to work we must focus on their specificity, ie, li with pseudo selector is more
+specific than trila selector , so we need to comment those */
+ul > li {
+  color: blue;
+}
+
+ol > li {
+  color: blue;
+}
