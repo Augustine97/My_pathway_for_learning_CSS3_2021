@@ -72,6 +72,7 @@ ul > li {
   color: blue;
 } */
 
+/* descendant selector 
 ul li {
   color: red;
-}
+} */
