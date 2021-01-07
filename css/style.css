@@ -63,11 +63,15 @@ textarea ~ button {
 
 /* trial selector , taking example of ul  and li*/
 /* for the code to work we must focus on their specificity, ie, li with pseudo selector is more
-specific than trila selector , so we need to comment those */
+specific than trial selector , so we need to comment those */
 ul > li {
   color: blue;
 }
 
-ol > li {
+/* ol > li {
   color: blue;
+} */
+
+ul li {
+  color: red;
 }
