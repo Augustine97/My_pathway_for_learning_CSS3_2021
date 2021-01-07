@@ -82,3 +82,10 @@ ol > li {
 ul li {
   color: red;
 } */
+
+/* attribute selector */
+
+/* if the file name starts with ../img  */
+img[src^="../img/"] {
+  border: 10px solid black;
+}
