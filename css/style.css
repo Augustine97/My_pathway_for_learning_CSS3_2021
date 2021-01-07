@@ -85,7 +85,12 @@ ul li {
 
 /* attribute selector */
 
-/* if the file name starts with ../img  */
+/* if the file name starts with ../img  
 img[src^="../img/"] {
+  border: 10px solid black;
+} */
+
+/* if the file name cosists of  ../img anywhere   */
+img[src*="../img/"] {
   border: 10px solid black;
 }
