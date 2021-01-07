@@ -1,0 +1,42 @@
+h2:hover {
+  /*:hover is a pseudo selector*/
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#services {
+  color: green;
+}
+/* first child doesn't work with ul*/
+
+/* li:first-child {
+  
+  color: steelblue;
+} or*/
+
+li:only-child {
+  color: magenta;
+}
+
+/*li:last-child {
+  
+  color: steelblue;
+} */
+
+/* when nth child method is used , we cannot use :first-child or :last-child methods*/
+li:nth-child(4) {
+  color: steelblue;
+}
+
+/* .title { 
+  color: red;
+}
+
+#contact-us {
+  color: green;
+}
+
+*/
