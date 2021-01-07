@@ -68,9 +68,9 @@ ul > li {
   color: blue;
 }
 
-/* ol > li {
-  color: blue;
-} */
+ol > li {
+  color: red;
+}
 
 /* descendant selector 
 ul li {
