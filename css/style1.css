@@ -1,4 +1,4 @@
-/* This css file is basically for colors and gradients topics , text manipulation, text-allignment, font-weight */
+/* This css file is basically for colors and gradients topics , text manipulation, text-allignment, font-weight , font family*/
 body {
   /* here 0.5 is opacity or transparency */
   background: linear-gradient(
@@ -6,6 +6,10 @@ body {
     rgb(224, 229, 255),
     rgba(224, 229, 255, 0.4)
   );
+
+  /* font-family */
+  font-family: sans-serif;
+
   /* front size */
   /* font-size: 1.23em; OR */
   /* font-size: 15px; OR */
