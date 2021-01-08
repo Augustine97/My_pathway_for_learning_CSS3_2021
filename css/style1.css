@@ -34,7 +34,7 @@ body {
   /* text colors */
   color: rgb(186, 133, 9);
   /* background: rgb(94, 94, 94); */
-  /* standard font weight set to h1 tag */
+  /* standard font weight(bold for element) set to h1 tag */
   font-weight: 800;
 }
 
@@ -78,4 +78,9 @@ body {
   text-decoration: underline;
   /* text-decoration: line-through; */
   /* text-decoration: overline; */
+}
+
+.italics {
+  /* there is no change  */
+  font-style: normal;
 }
