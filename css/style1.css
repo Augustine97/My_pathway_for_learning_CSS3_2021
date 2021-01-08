@@ -1,4 +1,4 @@
-/* This css file is basically for colors and gradients topics , text manipulation, text-allignment */
+/* This css file is basically for colors and gradients topics , text manipulation, text-allignment, font-weight */
 body {
   /* here 0.5 is opacity or transparency */
   background: linear-gradient(
@@ -34,6 +34,8 @@ body {
   /* text colors */
   color: rgb(186, 133, 9);
   /* background: rgb(94, 94, 94); */
+  /* standard font weight set to h1 tag */
+  font-weight: 800;
 }
 
 .subtitle {
