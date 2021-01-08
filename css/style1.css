@@ -1,6 +1,11 @@
+/* This css file is basically for colors and gradients */
 body {
   /* here 0.5 is opacity or transparency */
-  background: rgba(204, 229, 255, 0.5);
+  background: linear-gradient(
+    to bottom,
+    rgb(224, 229, 255),
+    rgba(224, 229, 255, 0.4)
+  );
   /* background-image: url("../img/img-2.jpg"); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
