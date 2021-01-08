@@ -6,7 +6,16 @@ body {
     rgb(224, 229, 255),
     rgba(224, 229, 255, 0.4)
   );
-  text-transform: uppercase;
+
+  /* all the letters are in capital letters */
+  /* text-transform: uppercase;  */
+
+  /*the first letter of every word is capitalized */
+  text-transform: capitalize;
+
+  /* all the letters are in small letters */
+  /* text-transform: lowercase; */
+
   /* background-image: url("../img/img-2.jpg"); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
