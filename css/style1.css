@@ -8,7 +8,9 @@ body {
   );
 
   /* font-family */
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  /* font family set as times new roman. if times new roman is not there then serif will be applied on the text */
+  font-family: "Times New Roman", serif;
 
   /* front size */
   /* font-size: 1.23em; OR */
