@@ -1,4 +1,4 @@
-/* This css file is basically for colors and gradients topics*/
+/* This css file is basically for colors and gradients topics , text manipulation */
 body {
   /* here 0.5 is opacity or transparency */
   background: linear-gradient(
@@ -50,4 +50,12 @@ body {
   background: radial-gradient(circle, red 40%, blue 55%, green 10%);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.link {
+  /* by default all the links are underlined in blue color. Three text decoration properties are discussed below */
+  /* text-decoration: none; */
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  text-decoration: overline;
 }
