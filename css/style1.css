@@ -40,7 +40,9 @@ body {
   /* -----for radial gradient */
   /* background: radial-gradient(red, blue, green); */
   /* specifying the percentages for the color  in radial gradient*/
-  background: radial-gradient(red 40%, blue 55%, green 10%);
+  /* background: radial-gradient(red 40%, blue 55%, green 10%); */
+  /* specifying the shape for the radial gradient */
+  background: radial-gradient(circle, red 40%, blue 55%, green 10%);
   background-repeat: no-repeat;
   background-size: cover;
 }
