@@ -38,7 +38,9 @@ body {
   /* background: linear-gradient(-90deg, rgb(168, 54, 50), rgba(168, 85, 50, 0)); */
 
   /* -----for radial gradient */
-  background: radial-gradient(red, blue, green);
+  /* background: radial-gradient(red, blue, green); */
+  /* specifying the percentages for the color  in radial gradient*/
+  background: radial-gradient(red 40%, blue 55%, green 10%);
   background-repeat: no-repeat;
   background-size: cover;
 }
