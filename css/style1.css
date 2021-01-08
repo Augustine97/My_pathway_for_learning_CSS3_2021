@@ -25,8 +25,14 @@ body {
   /* background-image: url("../img/img-2.jpg"); */
   /* this is explanation related to gradient.There are two types of gradients .They are radio gradients and linear gradients */
   /* syntax---->Linear-gradient(top,bottom,left ,right) */
-  background: linear-gradient(to right, rgb(168, 54, 50), rgba(168, 85, 50, 0));
+  /* background: linear-gradient(to right, rgb(168, 54, 50), rgba(168, 85, 50, 0)); */
   /* background: linear-gradient(to top, rgb(168, 54, 50), rgba(168, 85, 50, 0)); */
+  /*for diagnally positioning gradient  */
+  background: linear-gradient(
+    to bottom right,
+    rgb(168, 54, 50),
+    rgba(168, 85, 50, 0)
+  );
   background-repeat: no-repeat;
   background-size: cover;
 }
