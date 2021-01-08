@@ -41,7 +41,7 @@ body {
   color: rgb(186, 133, 9);
   /* background: rgb(94, 94, 94); */
   /* standard font weight(bold for element) set to h1 tag */
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 
 .subtitle {
@@ -79,6 +79,7 @@ body {
 }
 
 .link {
+  color: brown;
   /* by default all the links are underlined in blue color. Three text decoration properties are discussed below */
   /* text-decoration: none; */
   text-decoration: underline;
