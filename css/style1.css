@@ -23,7 +23,8 @@ body {
   height: 400px;
   width: 70%;
   /* background-image: url("../img/img-2.jpg"); */
-  /* this is explanation related to gradient.There are two types of gradients .They are radio gradients and linear gradients */
+
+  /* --------------- explanation related to gradient.There are two types of gradients .They are radial gradients and linear gradients */
   /* syntax---->Linear-gradient(top,bottom,left ,right) */
   /* background: linear-gradient(to right, rgb(168, 54, 50), rgba(168, 85, 50, 0)); */
   /* background: linear-gradient(to top, rgb(168, 54, 50), rgba(168, 85, 50, 0)); */
@@ -34,7 +35,10 @@ body {
     rgba(168, 85, 50, 0)
   ); */
   /* for inverting the color that is from right to  top left  */
-  background: linear-gradient(-90deg, rgb(168, 54, 50), rgba(168, 85, 50, 0));
+  /* background: linear-gradient(-90deg, rgb(168, 54, 50), rgba(168, 85, 50, 0)); */
+
+  /* -----for radial gradient */
+  background: radial-gradient(red, blue, green);
   background-repeat: no-repeat;
   background-size: cover;
 }
